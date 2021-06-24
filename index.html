@@ -17,32 +17,34 @@
   </head>
   <body class="bg-light">
     
-<main>
-    <div class="b-example-divider"></div>
-
-    <div class="jumbotron p-5 text-center fw-bold">
-        <h1 class="display-4 fw-bold text-primary">Sprint 3</h1>
-        <p class="lead">Nivel 3. Calculadora simple.</p>
-        <hr class="my-4">
-    </div>
-
-    <div class="b-example-divider"></div>
-
-
-  <div class="bg-dark text-secondary px-4 py-5">
-    <div class="py-5">
-      <h1 class="display-5 text-white text-center">Calculadora</h1>
-      <div class="col-lg-6 mx-auto">
-        <p class="fs-5 my-4 text-left">Aprofita la funció "calculadora" de l'exercici anterior per crear una calculadora completa amb opcions per sumar, restar, multiplicar i dividir. Hauràs de controlar el Zero com a denominador d'una divisió, ja que si l'usuari divideix qualsevol número entre 0 donarà error (p.e. 3/0), has de garantir que no falli!
-        </p>
-        
+    <section>
+      <div class="container">
+          <div id="display"></div>
+          <div class="buttons">
+              <div class="button">C</div>
+              <div class="button">/</div>
+              <div class="button">*</div>
+              <div class="button">&larr;</div>
+              <div class="button">7</div>
+              <div class="button">8</div>
+              <div class="button">9</div>
+              <div class="button">-</div>
+              <div class="button">4</div>
+              <div class="button">5</div>
+              <div class="button">6</div>
+              <div class="button">+</div>
+              <div class="button">1</div>
+              <div class="button">2</div>
+              <div class="button">3</div>
+              <div class="button">.</div>
+              <div class="button">(</div>
+              <div class="button">0</div>
+              <div class="button">)</div>
+              <div id="equal" class="button">=</div>
+          </div>
       </div>
-    </div>
-  </div>
-
-  <div class="b-example-divider w-100"></div>
-
-</main>
+  </section>
+  <script src="index.js"></script>
 
 
     <!-- <script src="../assets/dist/js/bootstrap.bundle.min.js"></script> -->
